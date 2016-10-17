@@ -1,0 +1,227 @@
+body {
+	margin: 0px;
+	font-family: trebuchet ms, sans-serif, arial;
+}
+
+#hello {
+	width: 100%;
+	height: 550px;
+	text-align: center;
+	margin-top: -21px;
+	padding-top: 200px;
+	color: white;
+	font-family: sans-serif;
+}
+
+#hello h1 {
+	font-size: 82px;
+}
+
+#hello h3 {
+	font-size: 16px;
+	margin-top: -25px;
+}
+
+#hello ul {
+	padding-top: 150px;
+	transition: 2s;
+}
+
+#hello li {
+	text-decoration: none;
+	font-family: sans-serif;
+	display: inline;
+	font-size: 20px;
+	margin: 80px;
+	border: 5px solid white;
+	border-radius: 7px;
+	padding: 12px 50px 12px 50px;
+	color: white;
+	opacity: 0.9;
+	transition: 2s;
+}
+
+#hello li:hover {
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	transition: 1s;
+}
+
+#hello a:link {
+	text-decoration: none;
+}
+
+#hello li:active {
+	text-decoration: none;
+	border: white;
+}
+
+#hello li:visited {
+	text-decoration: none;
+	border: white;
+}
+
+#about {
+	height: 730px;
+	width: 1000px;
+	display: block;
+	background: white;
+	margin: auto;
+}
+
+#about img {
+	height: 200px;
+	width: 200px;
+	float: right;
+	display: block;
+}
+
+.content {
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	display: block;
+	margin: auto;
+	width: 800px;
+}
+
+.content h2 {
+	font-size: 48px;
+}
+
+.content h2 span {
+	float: right;
+}
+
+.content hr {
+	width: 1000px;
+	margin: -20px -100px 20px -100px;
+	color: gray;
+}
+
+.content p {
+	padding: 30px;
+}
+
+#projects {
+	height: 730px;
+	width: 100%;
+	display: block;
+	background: gray;
+}
+
+#projects ul {
+	list-style-type: none;
+	margin: 70px -200px 0px -130px;
+}
+
+#projects li {
+	display: inline-block;
+	margin: 30px;
+	text-align: center;
+	border: 5px solid black;
+	padding: 3px;
+	border-radius: 7px;
+}
+
+#projects img {
+	width: 250px;
+	height: 170px;
+}
+
+#projects li:hover {
+	display: inline-block;
+	margin: 30px;
+	text-align: center;
+	border: 5px solid white;
+	padding: 3px;
+	border-radius: 7px;
+	color: white;
+	transition: 0.75s;
+}
+
+#projects a:active {
+	text-decoration: none;
+	color: white;
+	border: white;
+}
+
+#projects a:visited {
+	text-decoration: none;
+	color: black;
+	border: white;
+}
+
+#contact {
+	height: 730px;
+	width: 100%;
+	display: block;
+	background: white;
+}
+
+#contact input, textarea {
+	height: 20px;
+	width: 410px;
+	padding: 7px;
+	outline: none;
+}
+
+form, #socialMedia {
+	width: 420px;
+	height: 350px;
+	display: inline-block;
+	position: absolute;
+}
+
+input[type=text], input[type=email], textarea {
+	border: none;
+	border-bottom: 3px solid gray;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+	border-bottom: 3px solid black;
+	transition: 1s;
+}
+
+#contact textarea {
+	height: 150px;
+	resize: none;
+	border-left: 3px solid gray;
+}
+
+#contact textarea:focus {
+	border-left: 3px solid black;
+}
+
+#contact input[type=submit] {
+	background-color: gray;
+	border: none;
+	border-radius: 4px;
+	height: 40px;
+	font-size: 18px;
+	font-style: bold;
+	width: 100px;
+	display: block;
+	margin: auto;
+}
+
+#socialMedia {
+	right: 200px;
+}
+
+#socialMedia img {
+	height: 75px;
+	width: 75px;
+	padding: 3px;
+	position: inherit;
+	margin-top: 265px;
+	margin-left: 10px;
+	border-radius: 15px;
+	border: 3px solid white;
+}
+
+#socialMedia img:hover {
+	border: 3px black solid;
+}
+
